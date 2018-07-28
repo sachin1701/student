@@ -6,6 +6,7 @@ var StudentSchema = new Schema({
     class: {type :String},
     roll_no : {type :String},
     class_teacher: {type :String} 
+    
 }, {
      collection : 'student'
 });

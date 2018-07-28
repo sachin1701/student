@@ -32,6 +32,7 @@ exports.createStudent = (req, res) => {
 
 // Find a single student with a studentRollno
 exports.findStudentDetailsWithRollNo = (req, res) => {
+    
 	Student.find({roll_no : req.params.studentId})
     .then(student => {
         if(!student) {
