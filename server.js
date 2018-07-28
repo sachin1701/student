@@ -16,7 +16,6 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 //routes(app);
 
-
 // Connecting to the database
 mongoose.connect(dbConfig.url)
 .then(() => {
